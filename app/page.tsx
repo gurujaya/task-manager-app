@@ -28,7 +28,8 @@ const Home: React.FC = () => {
       </Head>
 
       <main>
-        <h1 className='text-5xl mb-6 text-center mt-3'>Task Manager App</h1>
+        <h1 className='text-5xl mb-2 text-center mt-3'>Task Manager App</h1>
+        <h2 className="text-xl text-center mb-2">By: Guruprasath Jayaprakash</h2>
         <TaskForm onAdd={addTask} />
         <div className="task-list">
           {tasks.map((task) => (
